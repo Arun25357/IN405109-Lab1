@@ -15,7 +15,7 @@ class DetailPage extends StatelessWidget {
       ),
       body: Container(
         width: double.infinity,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [Colors.blueAccent, Colors.lightBlueAccent],
             begin: Alignment.topCenter,
